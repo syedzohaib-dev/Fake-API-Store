@@ -9,7 +9,7 @@ fetch('https://fakestoreapi.com/products')
             console.log(item.id)    
             let col = document.createElement('div')
             let anchor = document.createElement('a')
-            anchor.href = `./item.html?name=${item.id}`
+            anchor.href = `./item.html?id=${item.id}`
             anchor.classList.add('anchor')
             col.classList.add('col')
             anchor.innerHTML = `
